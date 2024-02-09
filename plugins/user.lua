@@ -9,4 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "max397574/better-escape.nvim",
+    opts = {
+      mapping = {"jk", "kj"}
+    },
+  },
 }
